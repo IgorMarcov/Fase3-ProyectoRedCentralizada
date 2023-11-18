@@ -1,0 +1,3 @@
+#Crear espacio compartido en una unidad de almacenamiento.
+@echo on
+IF NOT EXIST P: net use P: \\altamira-comp\Almacenamiento
