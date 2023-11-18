@@ -1,0 +1,5 @@
+@echo off 
+IF NOT EXIST F: net use F: \\altamira-comp\DepGerencia
+IF NOT EXIST G: net use G: \\altamira-comp\DepInformatica
+IF NOT EXIST H: net use H: \\altamira-comp\DepServPCientificos
+IF NOT EXIST I: net use I: \\altamira-comp\DepSoporte
